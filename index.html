@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -10,115 +10,113 @@
   <title>bubble.js</title>
 </head>
 <body>
-  <div class="body">
-    <a href="https://github.com/trystonperry/bubble.js" target="_blank" style="position:absolute; right: 0; z-index:100">
-      <img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1">
-    </a>
-  
-    <div class="header">
-      <a href="/" class="header-title">bubble.js</a>
+  <a href="https://github.com/trystonperry/bubble.js" target="_blank" style="position:absolute; right: 0; z-index:100">
+    <img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1">
+  </a>
+
+  <div class="header">
+    <a href="/" class="header-title">bubble.js</a>
+  </div>
+
+  <div class="bubbles">
+    <div class="bubble bubble-0">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 1</p>
+      </span>
     </div>
-  
-    <div class="bubbles">
-      <div class="bubble bubble-0">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 1</p>
-        </span>
+    <div class="bubble bubble-1">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 2</p>
+      </span>
+    </div>
+    <div class="bubble bubble-2">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 3</p>
+      </span>
+    </div>
+    <div class="bubble bubble-3">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 4</p>
+      </span>
+    </div>
+    <div class="bubble bubble-4">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 5</p>
+      </span>
+    </div>
+    <div class="bubble bubble-5">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 6</p>
+      </span>
+    </div>
+    <div class="bubble bubble-6">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 7</p>
+      </span>
+    </div>
+    <div class="bubble bubble-7">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 8</p>
+      </span>
+    </div>
+    <div class="bubble bubble-8">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 9</p>
+      </span>
+    </div>
+    <div class="bubble bubble-9">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 10</p>
+      </span>
+    </div>
+    <div class="bubble bubble-10">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 11</p>
+      </span>
+    </div>
+    <div class="bubble bubble-11">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 12</p>
+      </span>
+    </div>
+    <div class="bubble bubble-12">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 13</p>
+      </span>
+    </div>
+    <div class="bubble bubble-13">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 14</p>
+      </span>
+    </div>
+    <div class="bubble bubble-14">
+      <span class="bubble-tooltip">
+        <p class="bubble-tooltip-text">Bubble 15</p>
+      </span>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <h1 class="download">Download Files</h1>
+
+    <div class="row">
+      <div class="col-sm">
+        <h4>Regular bubble.js</h4>
+        <xmp><script src="https://www.trystonperry.com/bubble.js/dl/bubble.js"></script></xmp>
+        <button onclick="copyRegular()" class="btn">Copy to Clipboard</button>
       </div>
-      <div class="bubble bubble-1">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 2</p>
-        </span>
+      <div class="col-sm">
+        <h4>Minified bubble.js</h4>
+        <xmp><script id="sc2" src="https://www.trystonperry.com/bubble.js/dl/bubble.min.js"></script></xmp>
+        <button onclick="copyMinified()" class="btn">Copy to Clipboard</button>
       </div>
-      <div class="bubble bubble-2">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 3</p>
-        </span>
-      </div>
-      <div class="bubble bubble-3">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 4</p>
-        </span>
-      </div>
-      <div class="bubble bubble-4">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 5</p>
-        </span>
-      </div>
-      <div class="bubble bubble-5">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 6</p>
-        </span>
-      </div>
-      <div class="bubble bubble-6">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 7</p>
-        </span>
-      </div>
-      <div class="bubble bubble-7">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 8</p>
-        </span>
-      </div>
-      <div class="bubble bubble-8">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 9</p>
-        </span>
-      </div>
-      <div class="bubble bubble-9">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 10</p>
-        </span>
-      </div>
-      <div class="bubble bubble-10">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 11</p>
-        </span>
-      </div>
-      <div class="bubble bubble-11">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 12</p>
-        </span>
-      </div>
-      <div class="bubble bubble-12">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 13</p>
-        </span>
-      </div>
-      <div class="bubble bubble-13">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 14</p>
-        </span>
-      </div>
-      <div class="bubble bubble-14">
-        <span class="bubble-tooltip">
-          <p class="bubble-tooltip-text">Bubble 15</p>
-        </span>
+      <div class="col-sm">
+        <h4>Full Demo Project ZIP</h4>
+        <a class="btn btn-dl" href="https://www.trystonperry.com/bubble.js/dl/bubble.js.zip">Download</a>
       </div>
     </div>
-  
-    <div class="container">
-  
-      <h1 class="download">Download Files</h1>
-  
-      <div class="row">
-        <div class="col-sm">
-          <h4>Regular bubble.js</h4>
-          <xmp><script src="https://www.trystonperry.com/bubble.js/dl/bubble.js"></script></xmp>
-          <button onclick="copyRegular()" class="btn">Copy to Clipboard</button>
-        </div>
-        <div class="col-sm">
-          <h4>Minified bubble.js</h4>
-          <xmp><script id="sc2" src="https://www.trystonperry.com/bubble.js/dl/bubble.min.js"></script></xmp>
-          <button onclick="copyMinified()" class="btn">Copy to Clipboard</button>
-        </div>
-        <div class="col-sm">
-          <h4>Full Demo Project ZIP</h4>
-          <a class="btn btn-dl" href="https://www.trystonperry.com/bubble.js/dl/bubble.js.zip">Download</a>
-        </div>
-      </div>
-  
-    </div>
+
   </div>
   
 
