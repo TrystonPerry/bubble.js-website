@@ -207,11 +207,3 @@ xmp {
   width: 150px;
 }
 
-@media screen and (min-width: 800px) {
-
-  body {
-    background: linear-gradient(180deg, rgb(119, 175, 236) 0%, rgba(0,212,255,0) 100%);
-  }
-
-}
-
